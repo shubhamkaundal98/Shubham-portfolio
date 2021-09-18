@@ -5,6 +5,7 @@ body {
 }
 :root{
     --primary-color:#059669;
+    --off-green:#34D399;
     --off-white: #F3F4F6;
     --light-green: #D1FAE5;
 }
@@ -14,11 +15,20 @@ body {
     padding: 0.5rem 1rem;
     color: white;
 }
+
+.link:hover {
+    background-color: var(--off-green);
+  }
+
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 1rem;
     color: white;
 }
+
+.link-primary:hover {
+    background-color: var(--off-green);
+  }
 
 .link-secondary{
 
